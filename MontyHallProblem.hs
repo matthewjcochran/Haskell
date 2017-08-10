@@ -60,10 +60,3 @@ getSummary wins strs m n =
   printf "%s\n...\nYou won %i out of %i times.\n"
     (intercalate "\n" $ take m $ strs)
     (length $ filter (== True) wins) n
-
-
-
-
-
-
-
